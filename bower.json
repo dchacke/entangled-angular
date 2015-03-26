@@ -1,0 +1,15 @@
+{
+  "name": "entangled-angular",
+  "version": "0.0.9",
+  "authors": [
+    "Dennis Charles Hackethal <dennis.hackethal@gmail.com>"
+  ],
+  "description": "Angular library that communicates with a real time backend to enable three way data binding",
+  "license": "MIT",
+  "homepage": "https://github.com/dchacke/entangled-angular",
+  "ignore": [
+    "LICENCE",
+    "README.md"
+  ],
+  "main": "entangled.js"
+}
