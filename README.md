@@ -168,15 +168,15 @@ This makes a `children()` function available on your parent records on which you
 
 ```javascript
 Parent.find(1, function(err, parent) {
-  parent.children().all(function(children) {
+  parent.children().all(function(err, children) {
     // children here all belong to parent with id 1
   });
 
-  parent.children().find(1, function(child) {
+  parent.children().find(1, function(err, child) {
     // child has id 1 and belongs to parent with id 1
   });
 
-  parent.children().create({ foo: 'bar' }, function(child) {
+  parent.children().create({ foo: 'bar' }, function(err, child) {
     // child has been persisted and associated with parent
   });
 
